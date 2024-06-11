@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soso-quran</title>
+    <link rel="icon" href="../مشروع القرآن الكريم/favicon.ico">
+    <link rel="stylesheet" href="../مشروع القرآن الكريم/quran.css">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn1").click(function(){
+                $('#s1').slideToggle(1000)
+                $("#img").hide(1000)
+
+            })
+        });
+        $(document).ready(function(){
+            $("#btn2").click(function(){
+                $('#s2').slideToggle(1000)
+                $("#img").hide(1000)
+
+            })
+        });
+        $(document).ready(function(){
+            $("#btn3").click(function(){
+                $('#s3').slideToggle(1000)
+                $("#img").hide(1000)
+
+            })
+        });
+        $(document).ready(function(){
+            $("#btn4").click(function(){
+                $('#s4').slideToggle(1000)
+                $("#img").hide(1000)
+
+            })
+        });
+        $(document).ready(function(){
+            $(window).scroll(function(){
+                var scrollpos = $(window).scrollTop();
+                $(".bg").css({
+                    'height' : +(scrollpos) + "px"
+                })
+
+            })
+        });
+    </script>
+</head>
+<body dir="rtl">
+    <center>
+    <header>
+        <img src="../مشروع القرآن الكريم/WhatsApp_Image_2024-06-09_at_21.55.30_92ec3b43-removebg-preview.png" alt="" width="80" height="80">
+    </header>
+</center>
+    <div>
+        <center>
+            <button id="btn1" title="انقر هنا لعرض سورة الفاتحة">سورة الفاتحة</button>
+            <button id="btn2" title="انقر هنا لعرض سورة الاخلاص">سورة الاخلاص</button>
+            <button id="btn3" title="انقر هنا لعرض سورة الفلق">سورة الفلق</button>
+            <button id="btn4" title="انقر هنا لعرض سورة الناس">سورة الناس</button>
+        </center>
+    </div>
+    <br>
+    <center>
+        <img id="img" src="https://th.bing.com/th/id/OIP.BSImL0VC0SKDlxXANPkLywHaH9?rs=1&pid=ImgDetMain" alt="" width="200" height="200">
+    </center>
+    <br><br><br><br>
+
+    <center>
+        <div id="s1">
+            <h3>بسم الله الرحمن الرحيم</h3>
+            <font size="4">ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ ٢ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ ٣ مَٰلِكِ يَوۡمِ ٱلدِّينِ ٤ إِيَّاكَ نَعۡبُدُ وَإِيَّاكَ نَسۡتَعِينُ ٥ ٱهۡدِنَا ٱلصِّرَٰطَ ٱلۡمُسۡتَقِيمَ ٦ صِرَٰطَ ٱلَّذِينَ أَنۡعَمۡتَ عَلَيۡهِمۡ غَيۡرِ ٱلۡمَغۡضُوبِ عَلَيۡهِمۡ وَلَا ٱلضَّآلِّينَ ٧</font>
+            <br><br>
+            <audio src="../مشروع القرآن الكريم/001.mp3" controls></audio>
+        </div>
+        <br>
+        <div id="s2">
+            <h3>بسم الله الرحمن الرحيم</h3>
+            <font size="4">قُلۡ هُوَ ٱللَّهُ أَحَدٌ ١ ٱللَّهُ ٱلصَّمَدُ ٢ لَمۡ يَلِدۡ وَلَمۡ يُولَدۡ ٣ وَلَمۡ يَكُن لَّهُۥ كُفُوًا أَحَدُۢ </font>
+            <br><br>
+            <audio src="../مشروع القرآن الكريم/112.mp3" controls></audio>
+        </div>
+        <br>
+        <div id="s3">
+            <h3>بسم الله الرحمن الرحيم</h3>
+            <font size="4">قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ ١ مِن شَرِّ مَا خَلَقَ ٢ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ ٣ وَمِن شَرِّ ٱلنَّفَّٰثَٰتِ فِي ٱلۡعُقَدِ ٤ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ ٥</font>
+            <br><br>
+            <audio src="../مشروع القرآن الكريم/113.mp3" controls></audio>
+        </div>
+        <br>
+        <div id="s4">
+            <h3>بسم الله الرحمن الرحيم</h3>
+            <font size="4">قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ ١ مَلِكِ ٱلنَّاسِ ٢ إِلَٰهِ ٱلنَّاسِ ٣ مِن شَرِّ ٱلۡوَسۡوَاسِ ٱلۡخَنَّاسِ ٤ ٱلَّذِي يُوَسۡوِسُ فِي صُدُورِ ٱلنَّاسِ ٥ مِنَ ٱلۡجِنَّةِ وَٱلنَّاسِ ٦</font>
+            <br><br>
+            <audio src="../مشروع القرآن الكريم/114.mp3" controls></audio>
+        </div>
+    </center>
+
+    <section>
+        <div class="bg"></div>
+        <h1 id="sda">❤️</h1>
+    </section>
+    <center>
+        <h3>تم بحمد الله</h3>
+        <br>
+        <ruby id="rb">
+            <rb>By:soso_developer</rb>
+        </ruby>
+
+    </center>
+
+</body>
+</html>
