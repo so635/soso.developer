@@ -7,6 +7,65 @@
     <link rel="icon" href="../مشروع القرآن الكريم/favicon.ico">
     <link rel="stylesheet" href="../مشروع القرآن الكريم/quran.css">
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.7.1.min.js"></script>
+    <STYLE>
+    body {
+    margin: 0;
+    padding: 0;
+    min-height: 1550px;
+}
+section {
+    position: relative;
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg {
+    position: fixed;
+    background-image: url(https://photosmix.com/wp-content/uploads/2020/03/%D8%B5%D9%88%D8%B1-%D9%82%D8%B1%D8%A2%D9%86-%D8%AC%D9%85%D9%8A%D9%84%D8%A9-9.jpg);
+    background-repeat: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid pink;
+    border-bottom: 1px solid pink;
+}
+div button {
+    width: 140px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    border: 2px solid pink;
+    border-radius: 20px;
+    font-style: bold;
+    cursor: pointer;  
+    transform: 0.1s;
+}
+div button:hover {
+    color: pink;
+    background: hotpink;
+    
+}
+#s1,#s2,#s3,#s4 {
+    width: 400px;
+    color: black;
+    text-shadow: 1px 1px pink;
+    margin-top: 30px;
+    display: none;
+}
+#rb {
+    font-size: 22px;
+    font-weight: bold;
+}
+#img {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    border-radius: 45px;
+}
+    </STYLE>
     <script>
         $(document).ready(function(){
             $("#btn1").click(function(){
